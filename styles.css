@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #17233b;
+  background: linear-gradient(135deg, #eaf1ff, #f8faff);
+}
+
+.tarjeta {
+  width: 100%;
+  max-width: 560px;
+  padding: 52px 30px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #dfe7f5;
+  border-radius: 20px;
+  box-shadow: 0 18px 45px rgba(35, 65, 120, 0.12);
+}
+
+.icono {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 18px;
+  border-radius: 18px;
+  background: #2f65df;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0 0 14px;
+  color: #2457c5;
+  font-size: clamp(2rem, 6vw, 3rem);
+}
+
+p {
+  margin: 0;
+  color: #56647b;
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.linea {
+  width: 72px;
+  height: 4px;
+  margin: 28px auto;
+  border-radius: 4px;
+  background: #2f65df;
+}
+
+h2 {
+  margin: 0;
+  color: #17233b;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .tarjeta {
+    padding: 40px 20px;
+  }
+}
